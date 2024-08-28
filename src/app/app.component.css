@@ -1,0 +1,61 @@
+
+.app-header {
+  background: #2193b0;
+  color: white;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-title {
+  font-size: 32px;
+  font-weight: 1000;
+  color: #cce4f4;
+  text-align: center;
+}
+
+.export-btn {
+  background: #a2a935;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.export-btn i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.export-btn:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.export-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.app-main {
+  padding: 20px;
+  gap: 20px;
+}
+
+.task-form-section,
+.task-list-section {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+.section-title{
+  text-align: center;
+}
